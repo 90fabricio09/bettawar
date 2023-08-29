@@ -7,7 +7,7 @@
     <meta property="og:site_name" content="Betta War">
     <meta name="theme-color" content="#25ff00">
     <meta name="keywords" content="betta, betta war, servidor, minecraft, servidor de minecraft">
-    <meta property="og:image" content="https://bettaminecraft-t247.vercel.app/assets/images/logo.png">
+    <meta property="og:image" content="assets/images/logo.png">
     <meta property="og:locale" content="pt-BR">
     <meta property="og:image:type" content="image/png">
     <meta property="og:image:width" content="120">
@@ -32,7 +32,7 @@
            <img src="assets/images/logo.png" alt="Logo">
          </div>
          <div class="Navbar__Link Navbar__Link-toggle">
-            <i class="bi bi-three-dots-vertical"></i>
+          <i class="bi bi-chevron-double-down"></i>
          </div>
        <nav class="Navbar__Items Navbar__Items--right">
          <div class="Navbar__Link">
@@ -54,24 +54,47 @@
         </div>
       </div>
       </div>
-      <div class="embed-discord">
+     </section>
+     <section>
+      <div class="embed-discord esquerda">
         <iframe src="https://discord.com/widget?id=1145416985933517002&theme=dark" width="285" height="400" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
         </div>
      </section>
-     <section><footer>
+     <br>
+     <section class="content">
+      <h1 class="novidades"><span>A</span>n<span>u</span>n<span>c</span>i<span>o</span>s</h1>
+      <div class="cards">
+        <div class="card mb-3" style="max-width: 20rem; background-color: #131313; color: #e0e0e0; border-color: #e0e0e0;">
+          <div class="card-body">
+            <h5 class="card-title">Jogue agora!</h5>
+            <p class="card-text">Para você jogar em nosso servidor basta clicar no botão abaixo:</p>
+            <button type="button" class="btn btn-success" onclick="window.location.href='https://discord.gg/wUXfEacFCF';">Jogar</button>
+          </div>
+        </div>
+        <div class="card mb-3" style="max-width: 20rem; background-color: #131313; color: #e0e0e0; border-color: #e0e0e0;">
+          <div class="card-body">
+            <h5 class="card-title">Instalar o TLauncher</h5>
+            <p class="card-text">Para instalar o TLauncher basta clicar no botão abaixo:</p>
+            <button type="button" class="btn btn-success" onclick="window.location.href='https://tlauncher.org';">Instalar</button>
+          </div>
+        </div>
+        <div class="card mb-3" style="max-width: 20rem; background-color: #131313; color: #e0e0e0; border-color: #e0e0e0;">
+          <div class="card-body">
+            <h5 class="card-title">Fundador da Betta War</h5>
+            <p class="card-text">Para saber mais sobre a familia Betta clique no botão abaixo:</p>
+            <button type="button" class="btn btn-success" onclick="window.location.href='https://bettabrasil.com.br';">Betta Brasil</button>
+          </div>
+        </div>
+      </div>
+     </section>
+     <br>
+     <section>
+      <footer>
       <div class="logotipo">
           <p>Developed by <a href="https://bettabrasil.com.br">Betta</a></p>
       </div>
-  </footer></section>
+  </footer>
+</section>
 </body>
-<script>
-    function classToggle() {
-    const navs = document.querySelectorAll('.Navbar__Items')
-    
-    navs.forEach(nav => nav.classList.toggle('Navbar__ToggleShow'));
-  }
-  
-  document.querySelector('.Navbar__Link-toggle')
-    .addEventListener('click', classToggle);
-</script>
+<script src="assets/js/script.js"></script>
 </html>
