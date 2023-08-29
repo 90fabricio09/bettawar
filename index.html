@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:site_name" content="Betta War">
+    <meta name="theme-color" content="#25ff00">
+    <meta name="keywords" content="betta, betta war, servidor, minecraft, servidor de minecraft">
+    <meta property="og:image" content="https://bettabrasil.com.br/assets/images/logopng.png">
+    <meta property="og:locale" content="pt-BR">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="120">
+    <meta property="og:image:height" content="120">
+    <meta property="og:site_name" content="">
+    <meta property="og:title" content="Website - Betta War">
+    <meta name="og:description"
+        content="Seja bem-vindo(a) a Betta War, o melhor servidor de Minecraft. Visite agora nosso website!">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://bettabrasil.com.br/">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <title>Betta War | Servidor | Minecraft</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="Navbar">
+        <div class="Navbar__Link Navbar__Link-brand">
+           <img src="assets/images/logo.png" alt="Logo">
+         </div>
+         <div class="Navbar__Link Navbar__Link-toggle">
+            <i class="bi bi-three-dots-vertical"></i>
+         </div>
+       <nav class="Navbar__Items Navbar__Items--right">
+         <div class="Navbar__Link">
+            <a href="https://discord.gg/wUXfEacFCF">Discord</a>
+         </div>
+         <div class="Navbar__Link btnesp">
+           <a href="https://tlauncher.org">Download</a>
+         </div>
+       </nav>
+     </div>
+     <section id="principal">
+      <div class="total">
+        <h1><span>Betta</span> War</h1>
+      <div ontouchstart="">
+        <div class="botao">
+          <div class="button">
+            <a href="https://discord.gg/wUXfEacFCF">Jogar Agora</a>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="embed-discord">
+        <iframe src="https://discord.com/widget?id=1145416985933517002&theme=dark" width="285" height="400" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+        </div>
+     </section>
+     <section><footer>
+      <div class="logotipo">
+          <p>Developed by <a href="https://bettabrasil.com.br">Betta</a></p>
+      </div>
+  </footer></section>
+</body>
+<script>
+    function classToggle() {
+    const navs = document.querySelectorAll('.Navbar__Items')
+    
+    navs.forEach(nav => nav.classList.toggle('Navbar__ToggleShow'));
+  }
+  
+  document.querySelector('.Navbar__Link-toggle')
+    .addEventListener('click', classToggle);
+</script>
+</html>
